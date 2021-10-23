@@ -17,7 +17,7 @@ menu_list_array = ["Veg Margherita Pizza",
 
     function add_item(){
         var htmldata;
-		var imgtags='<img id="im1" src="../asstes/pizzaImg.png">'
+		var imgtags='<img id="im1" src="pizzaImg.png">'
         var item=document.getElementById("add_item").value;
         // use the sort function as - menu_list_array.sort();
         menu_list_array.sort();
